@@ -194,14 +194,14 @@ vim .travis.yml&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
 &lt;h4 id=&#34;generate-github-token&#34;&gt;Generate Github Token&lt;/h4&gt;
 
-&lt;p&gt;&lt;img src=&#34;image/github-token-generation.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://rabit.github.io/image/github-token-generation.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
 
 &lt;h4 id=&#34;configure-travis-ci&#34;&gt;Configure Travis CI&lt;/h4&gt;
 
 &lt;h5 id=&#34;設定環境變數&#34;&gt;設定環境變數&lt;/h5&gt;
 
-&lt;p&gt;&lt;img src=&#34;image/travis-ci-environments.png&#34; alt=&#34;&#34; /&gt;
-&lt;img src=&#34;image/travis-ci-settings.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://rabit.github.io/image/travis-ci-environments.png&#34; alt=&#34;&#34; /&gt;
+&lt;img src=&#34;https://rabit.github.io/image/travis-ci-settings.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
 
 &lt;h4 id=&#34;推送-travis-ym-觸發-travis-ci-build-stage&#34;&gt;推送 .travis.ym 觸發 Travis-CI build stage&lt;/h4&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
