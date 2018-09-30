@@ -3,7 +3,7 @@ title: "以Travis CI將Hugo Blog部署到Github Pages"
 slug: "Using Travis CI to Deploy Hugo Blog to Github Pages"
 date: 2018-10-01T00:01:00+08:00
 lastmod: 2018-10-01T00:01:00+08:00
-draft: true
+draft: false
 keywords: ["Hugo", "Travis CI", "GitHub Pages", "Git"]
 description: "簡單記錄用Travis CI將Hugo Blog部署到Github pages"
 tags: ["Git", "Github", "Hugo", "Travis CI"]
