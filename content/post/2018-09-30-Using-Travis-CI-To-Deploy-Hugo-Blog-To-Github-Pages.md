@@ -15,7 +15,6 @@ author: "rabit"
 comment: false
 toc: true
 autoCollapseToc: true
-contentCopyright: true
 reward: false
 mathjax: true
 ---
@@ -107,13 +106,13 @@ deploy:
 
 #### Generate Github Token
 
-![](image/github-token-generation.png)
+![](/image/github-token-generation.png)
 
 #### Configure Travis CI
 
 ##### 設定環境變數
-![](image/travis-ci-environments.png)
-![](image/travis-ci-settings.png)
+![](/image/travis-ci-environments.png)
+![](/image/travis-ci-settings.png)
 
 #### 推送 .travis.ym 觸發 Travis-CI build stage
 ```bash

@@ -15,7 +15,7 @@ author: "rabit"
 comment: false
 toc: true
 autoCollapseToc: true
-contentCopyright: true
+# contentCopyright: true
 reward: false
 mathjax: true
 ---
