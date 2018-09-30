@@ -10,13 +10,64 @@
   </url>
   
   <url>
+    <loc>https://rabit.github.io/2018/using-travis-ci-to-deploy-hugo-blog-to-github-pages/</loc>
+    <lastmod>2018-10-01T00:01:00+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://rabit.github.io/categories/blog/</loc>
+    <lastmod>2018-10-01T00:01:00+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://rabit.github.io/categories/</loc>
+    <lastmod>2018-10-01T00:01:00+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://rabit.github.io/tags/git/</loc>
+    <lastmod>2018-10-01T00:01:00+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://rabit.github.io/tags/github/</loc>
+    <lastmod>2018-10-01T00:01:00+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://rabit.github.io/tags/hugo/</loc>
+    <lastmod>2018-10-01T00:01:00+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://rabit.github.io/post/</loc>
+    <lastmod>2018-10-01T00:01:00+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://rabit.github.io/tags/</loc>
+    <lastmod>2018-10-01T00:01:00+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://rabit.github.io/tags/travis-ci/</loc>
+    <lastmod>2018-10-01T00:01:00+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0</priority>
   </url>
