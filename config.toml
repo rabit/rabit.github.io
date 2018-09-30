@@ -15,6 +15,15 @@ disqusShortname = ""      # disqus_shortname
 googleAnalytics = ""      # UA-XXXXXXXX-X
 copyright = ""            # default: author.name ↓        # 默认为下面配置的author.name ↓
 
+# Highlight options. See https://gohugo.io/content-management/syntax-highlighting/
+pygmentsCodeFences = true # Enable syntax highlighting with GitHub flavoured code fences
+pygmentsUseClasses = true # Use CSS classes to format highlighted code
+pygmentsCodefencesGuessSyntax = true
+pygmentsOptions = "linenos=table"
+
+# See https://gohugo.io/content-management/static-files/
+staticDir = ["static"]
+
 # language support # en / zh-cn / other... translations present in i18n/
 defaultContentLanguage = "zh-tw"           # Default language to use
 [languages.en]
@@ -31,34 +40,41 @@ defaultContentLanguage = "zh-tw"           # Default language to use
   priority = 0.5
   filename = "sitemap.xml"
 
-[[menu.main]]             # config your menu              # 配置目录
-  name = "This is Home"
-  weight = 10
-  identifier = "home"
-  url = "/"
+#[[menu.main]]             # config your menu              # 配置目录
+#  name = "Home"
+#  weight = 10
+#  identifier = "home"
+#  url = "/"
 [[menu.main]]
-  name = "Archives"
+  name = "歸檔"
   weight = 20
   identifier = "archives"
   url = "/post/"
 [[menu.main]]
-  name = "Tags"
+  name = "標籤"
   weight = 30
   identifier = "tags"
   url = "/tags/"
 [[menu.main]]
-  name = "Categories"
+  name = "分類"
   weight = 40
   identifier = "categories"
   url = "/categories/"
-[[menu.main]]
-  name = "external-link"
-  weight = 50
-  url = "https://gohugo.io"
+#[[menu.main]]
+#  name = "external-link"
+#  weight = 50
+#  url = "https://gohugo.io"
+
+# https://gohugo.io/content-management/urls/#permalink-configuration-values
+[permalinks]
+  # post = "/:year/:title"
+  # post = "/:year/:filename"
+  post = "/:year/:slug"
+  # slug: the content’s slug (or title if no slug is provided in the front matter)
 
 
 [params]
-  since = "2017"            # Site creation time          # 站点建立时间
+  since = "2018"            # Site creation time          # 站点建立时间
   homeFullContent = false   # if false, show post summaries on home page. Othewise show full content.
   rssFullContent = true     # if false, Rss feed instead of the summary
 
@@ -69,6 +85,9 @@ defaultContentLanguage = "zh-tw"           # Default language to use
 
   # The date format to use; for a list of valid formats, see https://gohugo.io/functions/format/
   dateFormatToUse = "2006-01-02"
+
+  # show word count and read time ?       # 是否显示字数统计与阅读时间
+  moreMeta = true
 
   # 一些全局开关，你也可以在每一篇内容的 front matter 中针对单篇内容关闭或开启某些功能，在 archetypes/default.md 查看更多信息。
   # Some global options, you can also close or open something in front matter for a single post, see more information from `archetypes/default.md`.
@@ -83,19 +102,19 @@ defaultContentLanguage = "zh-tw"           # Default language to use
 
   [params.social]                                         # 社交链接
     a-email = "mailto:your@email.com"
-    b-stack-overflow = "http://localhost:1313"
-    c-twitter = "http://localhost:1313"
-    d-facebook = "http://localhost:1313"
-    e-linkedin = "http://localhost:1313"
-    f-google = "http://localhost:1313"
-    g-github = "http://localhost:1313"
-    h-weibo = "http://localhost:1313"
-    i-zhihu = "http://localhost:1313"
-    j-douban = "http://localhost:1313"
-    k-pocket = "http://localhost:1313"
-    l-tumblr = "http://localhost:1313"
-    m-instagram = "http://localhost:1313"
-    n-gitlab = "http://localhost:1313"
-    o-goodreads = "http://localhost:1313"
-    p-coding = "http://localhost:1313"
-    q-bilibili = "http://localhost:1313"
+  #  b-stack-overflow = "http://localhost:1313"
+    c-twitter = "https://twitter.com/RabitChang"
+  #  d-facebook = "http://localhost:1313"
+  #  e-linkedin = "http://localhost:1313"
+  #  f-google = "http://localhost:1313"
+    g-github = "https://github.com/rabit"
+  #  h-weibo = "http://localhost:1313"
+  #  i-zhihu = "http://localhost:1313"
+  #  j-douban = "http://localhost:1313"
+  #  k-pocket = "http://localhost:1313"
+  #  l-tumblr = "http://localhost:1313"
+  #  m-instagram = "http://localhost:1313"
+  #  n-gitlab = "http://localhost:1313"
+  #  o-goodreads = "http://localhost:1313"
+  #  p-coding = "http://localhost:1313"
+  #  q-bilibili = "http://localhost:1313"
