@@ -1,0 +1,2 @@
+User-agent: *
+Sitemap: https://rabit.github.io/sitemap.xml
