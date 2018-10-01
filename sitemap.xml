@@ -17,6 +17,11 @@
   </url>
   
   <url>
+    <loc>https://rabit.github.io/archives/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://rabit.github.io/categories/</loc>
     <priority>0</priority>
   </url>
