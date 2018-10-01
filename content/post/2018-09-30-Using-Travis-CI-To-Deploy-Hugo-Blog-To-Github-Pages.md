@@ -4,7 +4,13 @@ subtitle: "以geek的方式寫blog"
 date: 2018-10-01T22:47:09+08:00
 lastmod: 2018-10-01T23:03:31+08:00
 draft: false
-tags: ["Git", "Github", "Hugo", "Travis CI"]
+categories: 
+ - DevOps
+tags: 
+ - Git
+ - Github
+ - Hugo
+ - Travis CI
 ---
 
 簡單紀錄操作步驟, 以後再逐步補充說明

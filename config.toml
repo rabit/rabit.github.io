@@ -14,6 +14,11 @@ pygmentOptions = "linenos=table"
 #disqusShortname = "XXX"
 #googleAnalytics = "XXX"
 
+[taxonomies]
+  tag = "tags"
+  category = "categories"
+#  archives = "archives"
+
 [Params]
   homeTitle = "rabit's blog" # Set a different text for the header on the home page
   subtitle = "Just for fun"
@@ -103,4 +108,9 @@ pygmentOptions = "linenos=table"
 [[menu.main]]
     name = "Tags"
     url = "tags"
-    weight = 3
+    weight = 2
+
+[[menu.main]]
+    name = "Archives"
+    url = "archives"
+    weight = 2
