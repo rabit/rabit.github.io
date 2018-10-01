@@ -17,7 +17,7 @@ pygmentOptions = "linenos=table"
 [taxonomies]
   tag = "tags"
   category = "categories"
-#  archives = "archives"
+  archives = "archives"
 
 [Params]
   homeTitle = "rabit's blog" # Set a different text for the header on the home page
