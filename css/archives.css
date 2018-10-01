@@ -1,0 +1,55 @@
+.archive::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.archive {
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+
+.archive h2 {
+    line-height: 1;
+    float: left;
+    min-width: 2.2em;
+    margin: 0;
+}
+
+.archive ul {
+    list-style-type: none;
+    margin-left: 0;
+    padding-left: 2em;
+    float: left;
+}
+
+.archive li {
+    display: block;
+    margin-bottom: 1em;
+}
+
+.archive li .permalink {
+    font-size: 120%;
+}
+
+.archive time {
+    font-family: "acumin-pro-condensed", sans-serif;
+    font-weight: 400;
+    font-size: 140%;
+}
+
+.archive .prefix {
+    font-family: europa, sans-serif;
+    text-transform: lowercase;
+    font-variant-caps: small-caps;
+    -moz-font-feature-settings: "smcp";
+    -webkit-font-feature-settings: "smcp";
+    font-feature-settings: "smcp";
+    font-weight: 400;
+    display: inline-block;
+    width: 5.5em;
+    text-align: right;
+    color: #bbb;
+    padding-left: 0.5em;
+}
+

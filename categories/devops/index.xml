@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Devops on rabit isn&#39;t rabbit</title>
+    <link>https://rabit.github.io/categories/devops/</link>
+    <description>Recent content in Devops on rabit isn&#39;t rabbit</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <managingEditor>youremail@domain.com (rabit)</managingEditor>
+    <webMaster>youremail@domain.com (rabit)</webMaster>
+    <lastBuildDate>Mon, 01 Oct 2018 22:47:09 +0800</lastBuildDate>
+    
+	<atom:link href="https://rabit.github.io/categories/devops/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>以Travis CI將Hugo Blog部署到Github Pages</title>
+      <link>https://rabit.github.io/post/2018-09-30-using-travis-ci-to-deploy-hugo-blog-to-github-pages/</link>
+      <pubDate>Mon, 01 Oct 2018 22:47:09 +0800</pubDate>
+      <author>youremail@domain.com (rabit)</author>
+      <guid>https://rabit.github.io/post/2018-09-30-using-travis-ci-to-deploy-hugo-blog-to-github-pages/</guid>
+      <description>&lt;p&gt;簡單紀錄操作步驟, 以後再逐步補充說明&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

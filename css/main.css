@@ -501,6 +501,7 @@ footer .theme-by {
   transition: opacity 1s linear;
 }
 .intro-header .page-heading,
+.intro-header .archives-heading,
 .intro-header .tags-heading {
   text-align: center;
 }
@@ -511,6 +512,7 @@ footer .theme-by {
   text-shadow: 1px 1px 3px #000;
 }
 .intro-header .page-heading h1,
+.intro-header .archives-heading h1,
 .intro-header .tags-heading h1 {
   margin-top: 0;
   font-size: 50px;
@@ -566,6 +568,7 @@ footer .theme-by {
     padding: 150px 0;
   }
   .intro-header .page-heading h1,
+  .intro-header .archives-heading h1,
   .intro-header .tags-heading h1 {
     font-size: 80px;
   }
