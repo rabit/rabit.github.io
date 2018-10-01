@@ -5,8 +5,9 @@
     <link>https://rabit.github.io/tags/</link>
     <description>Recent content in Tags on rabit isn&#39;t rabbit</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>zh-tw</language>
-    <lastBuildDate>Mon, 01 Oct 2018 00:01:00 +0800</lastBuildDate>
+    <managingEditor>youremail@domain.com (rabit)</managingEditor>
+    <webMaster>youremail@domain.com (rabit)</webMaster>
+    <lastBuildDate>Mon, 01 Oct 2018 22:47:09 +0800</lastBuildDate>
     
 	<atom:link href="https://rabit.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     
@@ -14,8 +15,8 @@
     <item>
       <title>Git</title>
       <link>https://rabit.github.io/tags/git/</link>
-      <pubDate>Mon, 01 Oct 2018 00:01:00 +0800</pubDate>
-      
+      <pubDate>Mon, 01 Oct 2018 22:47:09 +0800</pubDate>
+      <author>youremail@domain.com (rabit)</author>
       <guid>https://rabit.github.io/tags/git/</guid>
       <description></description>
     </item>
@@ -23,8 +24,8 @@
     <item>
       <title>Github</title>
       <link>https://rabit.github.io/tags/github/</link>
-      <pubDate>Mon, 01 Oct 2018 00:01:00 +0800</pubDate>
-      
+      <pubDate>Mon, 01 Oct 2018 22:47:09 +0800</pubDate>
+      <author>youremail@domain.com (rabit)</author>
       <guid>https://rabit.github.io/tags/github/</guid>
       <description></description>
     </item>
@@ -32,8 +33,8 @@
     <item>
       <title>Hugo</title>
       <link>https://rabit.github.io/tags/hugo/</link>
-      <pubDate>Mon, 01 Oct 2018 00:01:00 +0800</pubDate>
-      
+      <pubDate>Mon, 01 Oct 2018 22:47:09 +0800</pubDate>
+      <author>youremail@domain.com (rabit)</author>
       <guid>https://rabit.github.io/tags/hugo/</guid>
       <description></description>
     </item>
@@ -41,8 +42,8 @@
     <item>
       <title>Travis Ci</title>
       <link>https://rabit.github.io/tags/travis-ci/</link>
-      <pubDate>Mon, 01 Oct 2018 00:01:00 +0800</pubDate>
-      
+      <pubDate>Mon, 01 Oct 2018 22:47:09 +0800</pubDate>
+      <author>youremail@domain.com (rabit)</author>
       <guid>https://rabit.github.io/tags/travis-ci/</guid>
       <description></description>
     </item>

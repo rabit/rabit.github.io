@@ -1,16 +1,65 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-	
-	<sitemap>
-	   	<loc>https://rabit.github.io/zh-tw/sitemap.xml</loc>
-		
-	   	<lastmod>2018-10-01T00:01:00+08:00</lastmod>
-		
-	</sitemap>
-	
-	<sitemap>
-	   	<loc>https://rabit.github.io/en/sitemap.xml</loc>
-		
-	</sitemap>
-	
-</sitemapindex>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>https://rabit.github.io/post/2018-09-30-using-travis-ci-to-deploy-hugo-blog-to-github-pages/</loc>
+    <lastmod>2018-10-01T23:03:31+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://rabit.github.io/</loc>
+    <lastmod>2018-10-01T23:03:31+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://rabit.github.io/page/about/</loc>
+  </url>
+  
+  <url>
+    <loc>https://rabit.github.io/categories/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://rabit.github.io/tags/git/</loc>
+    <lastmod>2018-10-01T23:03:31+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://rabit.github.io/tags/github/</loc>
+    <lastmod>2018-10-01T23:03:31+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://rabit.github.io/tags/hugo/</loc>
+    <lastmod>2018-10-01T23:03:31+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://rabit.github.io/page/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://rabit.github.io/post/</loc>
+    <lastmod>2018-10-01T23:03:31+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://rabit.github.io/tags/</loc>
+    <lastmod>2018-10-01T23:03:31+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://rabit.github.io/tags/travis-ci/</loc>
+    <lastmod>2018-10-01T23:03:31+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+</urlset>
