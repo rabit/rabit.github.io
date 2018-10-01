@@ -4,7 +4,10 @@ subtitle: ""
 date: {{ .Date }}
 lastmod: {{ .Date }}
 draft: true
-tags: []
+categories:
+ - 
+tags:
+ - 
 ---
 
 <!--more-->
