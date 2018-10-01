@@ -12,7 +12,8 @@ submodule:
 	git submodule update --init --recursive
 
 view:
-	hugo server -w --bind=0.0.0.0 --baseURL=http://0.0.0.0:1313/ --buildDrafts --buildFuture ./
+	hugo server -w -t beautifulhugo --buildDrafts --buildFuture --disableFastRender
+#	hugo server -w -t beautifulhugo --bind=0.0.0.0 --baseURL=http://0.0.0.0:1313/ --buildDrafts --buildFuture --disableFastRender ./
 
 push:
 	git checkout hugo-code

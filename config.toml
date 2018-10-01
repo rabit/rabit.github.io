@@ -1,120 +1,106 @@
-# This is a simple configuration.
-# If you want to see the full configuration, please check `full-config.toml` .
-# And see https://gohugo.io/getting-started/configuration/ .
-
-baseURL = "https://rabit.github.io"
+baseurl = "https://rabit.github.io"
+DefaultContentLanguage = "zh-tw"
+#DefaultContentLanguage = "en"
+#DefaultContentLanguage = "ja"
 title = "rabit isn't rabbit"
-enableRobotsTXT = true
-enableEmoji = true
-theme = "jane"
-
-hasCJKLanguage = true     # has chinese/japanese/korean ? # 自动检测是否包含 中文\日文\韩文
-paginate = 3              # Number of articles displayed on the homepage  # 首页每页显示的文章数
-rssLimit = 20             # Limit Entry Count to Rss file # 限制 Rss 文章输出数量
-disqusShortname = ""      # disqus_shortname
-googleAnalytics = ""      # UA-XXXXXXXX-X
-copyright = ""            # default: author.name ↓        # 默认为下面配置的author.name ↓
-
-# Highlight options. See https://gohugo.io/content-management/syntax-highlighting/
-pygmentsCodeFences = true # Enable syntax highlighting with GitHub flavoured code fences
-pygmentsUseClasses = true # Use CSS classes to format highlighted code
+theme = "beautifulhugo"
+metaDataFormat = "yaml"
+pygmentsStyle = "monokai"
+pygmentsUseClasses = true
+pygmentsCodeFences = true
 pygmentsCodefencesGuessSyntax = true
-pygmentsOptions = "linenos=table"
+#pygmentsUseClassic = true
+#pygmentOptions = "linenos=inline"
+#disqusShortname = "XXX"
+#googleAnalytics = "XXX"
 
-# See https://gohugo.io/content-management/static-files/
-staticDir = ["static"]
+[Params]
+  homeTitle = "rabit's blog" # Set a different text for the header on the home page
+  subtitle = "Just for fun"
+#  logo = "img/avatar-icon.png"
+  favicon = "img/favicon.ico"
+  logo = "image/favicon.jpg"
+  dateFormat = "2006-01-02 15:04:05"
+  since = "2018"
+  commit = false
+  rss = true
+  comments = true
+  readingTime = true
+#  useHLJS = true
+  socialShare = true
+#  gcse = "012345678901234567890:abcdefghijk" # Get your code from google.com/cse. Make sure to go to "Look and Feel" and change Layout to "Full Width" and Theme to "Classic"
 
-# language support # en / zh-cn / other... translations present in i18n/
-defaultContentLanguage = "zh-tw"           # Default language to use
-[languages.en]
-  languageCode = "en"
+#[[Params.bigimg]]
+#  src = "img/triangle.jpg"
+#  desc = "Triangle"
+#[[Params.bigimg]]
+#  src = "img/sphere.jpg"
+#  desc = "Sphere"
+#  # position: see values of CSS background-position.
+#  position = "center top"
+#[[Params.bigimg]]
+#  src = "img/hexagon.jpg"
+#  desc = "Hexagon"
 
-[languages.zh-tw]
-  languageCode = "zh-tw"
-
-[author]                  # essential                     # 必需
+[Author]
   name = "rabit"
+  website = "https://rabit.github.io"
+  email = "youremail@domain.com"
+#  facebook = "username"
+#  googleplus = "+username" # or xxxxxxxxxxxxxxxxxxxxx
+  github = "rabit"
+#  gitlab = "username"
+#  bitbucket = "username"
+  twitter = "RabitChang"
+#  reddit = "username"
+#  linkedin = "username"
+#  xing = "username"
+#  stackoverflow = "users/XXXXXXX/username"
+#  snapchat = "username"
+#  instagram = "username"
+#  youtube = "user/username" # or channel/channelname
+#  soundcloud = "username"
+#  spotify = "username"
+#  bandcamp = "username"
+#  itchio = "username"
+#  vk = "username"
+#  paypal = "username"
+#  telegram = "username"
 
-[sitemap]                 # essential                     # 必需
-  changefreq = "weekly"
-  priority = 0.5
-  filename = "sitemap.xml"
+[[menu.main]]
+    name = "Blog"
+    url = ""
+    weight = 1
 
-#[[menu.main]]             # config your menu              # 配置目录
-#  name = "Home"
-#  weight = 10
-#  identifier = "home"
-#  url = "/"
 [[menu.main]]
-  name = "歸檔"
-  weight = 20
-  identifier = "archives"
-  url = "/post/"
-[[menu.main]]
-  name = "標籤"
-  weight = 30
-  identifier = "tags"
-  url = "/tags/"
-[[menu.main]]
-  name = "分類"
-  weight = 40
-  identifier = "categories"
-  url = "/categories/"
+    name = "About"
+    url = "page/about/"
+    weight = 3
+
 #[[menu.main]]
-#  name = "external-link"
-#  weight = 50
-#  url = "https://gohugo.io"
+#    identifier = "samples"
+#    name = "Samples"
+#    weight = 2
+#
+#[[menu.main]]
+#    parent = "samples"
+#    name = "Big Image Sample"
+#    url = "post/2017-03-07-bigimg-sample"
+#    weight = 1
+#
+#[[menu.main]]
+#    parent = "samples"
+#    name = "Math Sample"
+#    url = "post/2017-03-05-math-sample"
+#    weight = 2
 
-# https://gohugo.io/content-management/urls/#permalink-configuration-values
-[permalinks]
-  # post = "/:year/:title"
-  # post = "/:year/:filename"
-  post = "/:year/:slug"
-  # slug: the content’s slug (or title if no slug is provided in the front matter)
+#[[menu.main]]
+#    parent = "samples"
+#    name = "Code Sample"
+#    url = "post/2016-03-08-code-sample"
+#    weight = 3
 
-
-[params]
-  since = "2018"            # Site creation time          # 站点建立时间
-  homeFullContent = false   # if false, show post summaries on home page. Othewise show full content.
-  rssFullContent = true     # if false, Rss feed instead of the summary
-
-  # site info (optional)                                  # 站点信息（可选，不需要的可以直接注释掉）
-  logoTitle = "rabit"        # default: the title value    # 默认值: 上面设置的title值
-  keywords = ["Hugo", "theme","jane"]
-  description = "rabit's blog."
-
-  # The date format to use; for a list of valid formats, see https://gohugo.io/functions/format/
-  dateFormatToUse = "2006-01-02"
-
-  # show word count and read time ?       # 是否显示字数统计与阅读时间
-  moreMeta = true
-
-  # 一些全局开关，你也可以在每一篇内容的 front matter 中针对单篇内容关闭或开启某些功能，在 archetypes/default.md 查看更多信息。
-  # Some global options, you can also close or open something in front matter for a single post, see more information from `archetypes/default.md`.
-  toc = true                                                                            # 是否开启目录
-  photoswipe = true         # see https://github.com/dimsemenov/PhotoSwipe            # 是否启用PhotoSwipe（图片可点击）
-  contentCopyright = '<a rel="license noopener" href="https://creativecommons.org/licenses/by-nc-nd/4.0/" target="_blank">CC BY-NC-ND 4.0</a>'
-
-  # Link custom CSS and JS assets
-  #   (relative to /static/css and /static/js respectively)
-  customCSS = []            # if ['custom.css'], load '/static/css/custom.css' file
-  customJS = []             # if ['custom.js'], load '/static/js/custom.js' file
-
-  [params.social]                                         # 社交链接
-    a-email = "mailto:your@email.com"
-  #  b-stack-overflow = "http://localhost:1313"
-    c-twitter = "https://twitter.com/RabitChang"
-  #  d-facebook = "http://localhost:1313"
-  #  e-linkedin = "http://localhost:1313"
-  #  f-google = "http://localhost:1313"
-    g-github = "https://github.com/rabit"
-  #  h-weibo = "http://localhost:1313"
-  #  i-zhihu = "http://localhost:1313"
-  #  j-douban = "http://localhost:1313"
-  #  k-pocket = "http://localhost:1313"
-  #  l-tumblr = "http://localhost:1313"
-  #  m-instagram = "http://localhost:1313"
-  #  n-gitlab = "http://localhost:1313"
-  #  o-goodreads = "http://localhost:1313"
-  #  p-coding = "http://localhost:1313"
-  #  q-bilibili = "http://localhost:1313"
+[[menu.main]]
+    name = "Tags"
+    url = "tags"
+    weight = 3

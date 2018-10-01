@@ -1,22 +1,10 @@
 ---
 title: "以Travis CI將Hugo Blog部署到Github Pages"
-slug: "Using Travis CI to Deploy Hugo Blog to Github Pages"
-date: 2018-10-01T00:01:00+08:00
-lastmod: 2018-10-01T00:01:00+08:00
+subtitle: "以geek的方式寫blog"
+date: 2018-10-01T22:47:09+08:00
+lastmod: 2018-10-01T23:03:31+08:00
 draft: false
-keywords: ["Hugo", "Travis CI", "GitHub Pages", "Git"]
-description: "簡單記錄用Travis CI將Hugo Blog部署到Github pages"
 tags: ["Git", "Github", "Hugo", "Travis CI"]
-categories: ["Blog"]
-author: "rabit"
-
-# You can also close(false) or open(true) something for this content.
-# P.S. comment can only be closed
-comment: false
-toc: true
-autoCollapseToc: true
-reward: false
-mathjax: true
 ---
 
 簡單紀錄操作步驟, 以後再逐步補充說明
