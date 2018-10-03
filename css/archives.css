@@ -47,10 +47,10 @@
     font-feature-settings: "smcp";
     font-weight: 400;
     display: inline-block;
-    width: 5.5em;
+    width: 5em;
     text-align: right;
     color: #bbb;
-    padding-left: 0.5em;
+    padding-left: 0;
 }
 
 .archive .link {
